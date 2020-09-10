@@ -1,0 +1,146 @@
+/* General Styles and Resets */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Quote Card */
+
+
+#quote-module {
+  border: 1px solid black;
+  background: #FFF;
+  width: 405px;
+  height: auto;
+  min-width: 243px;
+  min-height: 200px;
+  margin: 26px;
+  padding: 0.75rem 0.5rem 0.5rem 0.5rem;
+}
+
+hr {
+  border: 2px solid #68676A;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.name { 
+  font-family: Palatino, 'Spectral', serif;
+  font-size: 18px;
+  color: #68676A;
+  display: inline-block;
+  width: 7em;
+  font-weight: 500;
+  margin-bottom: 24px;
+  letter-spacing: 0.05em;
+}
+
+/* Table */
+
+.quote-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  font-family: Palatino Linotype, 'Spectral', Times, serif;
+}
+
+.table-header {
+  padding-bottom: 10px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EAEBEA;
+  align-items: center;
+}
+
+.last-price {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.change-info {
+  font-size: 24px;
+  color: #078C41;
+  font-weight: 300;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #078C41;
+}
+
+th, td {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.timestamp {
+  padding-right: 0;
+}
+
+.data-row {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.row-label {
+  color: #68676A;
+  font-size: 12px;
+}
+
+/* Search Bar */
+
+.search-form {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4px;
+}
+
+.search-input, .search-button {
+  width: 49%;
+  height: 34px;
+  border: 1px solid #EAEBEA;
+}
+
+.search-input {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-button {
+  border-radius: 0px 5px 5px 0px;
+  background: linear-gradient(#FFF, #E9E9E9);
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
